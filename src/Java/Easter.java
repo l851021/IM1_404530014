@@ -6,10 +6,12 @@ public class Easter {
 		// TODO Auto-generated method stub
 		int ym19,ym4,ym7,year,year_1,year_2,year_3,y_m30,y_m7,a,b,day;
 		String month;
+		
 		Scanner Easter = new Scanner(System.in);
 		System.out.print("請輸入西元年份:");
 		year=Easter.nextInt();
-		//計算
+		
+		//calculate
 		ym19=year%19;
 		ym4=year%4;
 		ym7=year%7;
